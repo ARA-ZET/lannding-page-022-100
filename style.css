@@ -1,0 +1,95 @@
+* {
+  font-family: 'Noto Sans JP', sans-serif;
+}
+  body{
+    background-color: rgb(235, 235, 235);
+  }
+.component {
+  background-color: rgb(245, 243, 243);
+  box-shadow: 6px 6px 10px 12px rgb(172, 168, 168);
+  color: rgb(4, 44, 97);
+  padding-bottom: 4rem;
+  border-radius: .5rem;
+  max-width: 1170px;
+  margin: auto;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 1rem 2rem;
+}
+
+.logo {
+  font-size: 2.4rem;
+  font-weight: bolder;
+  background-color: rgb(12, 52, 124);
+  color: white;
+  padding: .3rem .6rem;
+  border-radius: 40%;
+}
+.nav-left {
+  display: flex;
+}
+
+h4 {
+  margin-right: 1rem;
+  
+}
+.banner h4 {
+  margin-bottom: 4rem;
+  font-style: italic;
+
+}
+
+.nav-left button {
+  background-color: rgb(13, 13, 78);
+  color: white;
+  height: 3rem;
+  text-align: center;
+  font-size: 1rem;
+  font-weight: bolder;
+  padding: 0 .6rem;
+  border: none;
+  border-radius: .5rem;
+}
+
+.banner {
+  margin: 3rem;
+}
+
+h1 {
+  text-transform: capitalize;
+  
+}
+.more {
+  display: flex;justify-content: space-between;
+  margin-bottom: 5rem;
+}
+
+.tile {
+  background-color: white;
+  width: 31%;
+  padding: .4rem;
+  border-radius: .6rem;
+  box-shadow: 2px 2px 10px 6px rgb(221, 221, 221);
+}
+
+
+.one {
+ border: none;
+ background-color: white;
+ font-weight: bolder;
+ color: rgb(20, 67, 194);
+}
+.three {
+ border: none;
+ background-color: rgb(230, 227, 227);
+ 
+ color: rgb(20, 67, 194);
+ text-transform: capitalize;
+ padding: .4rem 1rem;
+ margin: .5rem ;
+ border-radius: .5rem;
+}
